@@ -198,10 +198,10 @@ def getSplit(y):
 
 if __name__ == '__main__' :
     start = time.time()
-    sentence_set = "/Users/samantha/Desktop/Graph/data/sentence.txt"
-    dependencies_set = "/Users/samantha/Desktop//Graph/output/sentence_dependency.txt"
-    wordvector_set = "/Users/samantha/Desktop/Graph/output/word_vec.txt"
-    wordclass_set = "/Users/samantha/Desktop/Graph/output/word_class.txt"
+    sentence_set = "data/sentence.txt"
+    dependencies_set = "output/sentence_dependency.txt"
+    wordvector_set = "output/word_vec.txt"
+    wordclass_set = "output/word_class.txt"
     sentences, indexes = getSentences(sentence_set)
     dependencies = getDependencies(dependencies_set, sentences)
     vectors = getVectors(wordvector_set, sentences)
