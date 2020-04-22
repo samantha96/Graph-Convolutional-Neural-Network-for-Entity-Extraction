@@ -1,6 +1,8 @@
 # Graph-Convolutional-neural-network
 Graph Convolutional Neural Network for Entity Extraction
 
+Research Group Member: Haiyang Sun, Hao Zhang, Xuehan Chen, Yanqi Yao, Yirong Wang
+
 Information Extraction (IE) is the process of extracting structured information from unstructured machine-readable documents 
 
 In Diego Marcheggiani and Ivan Titov’s paper Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling, researchers found that the results of syntactic analysis and the results of semantic role labeling are mostly mirrored. Based on the above observations, researchers proposed a graph-based convolutional network(GCN) method for semantic role labeling. Use GCN to encode a syntax-dependent tree, resulting in a potential feature representation of the word in the sentence.
